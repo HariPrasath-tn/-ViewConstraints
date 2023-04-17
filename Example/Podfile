@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ViewConstraints_Example' do
+  pod 'ViewConstraints', :path => '../'
+
+  target 'ViewConstraints_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
