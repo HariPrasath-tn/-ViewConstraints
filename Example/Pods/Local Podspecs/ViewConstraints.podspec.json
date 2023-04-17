@@ -1,0 +1,22 @@
+{
+  "name": "ViewConstraints",
+  "version": "0.1.0",
+  "summary": "Pod that handles basic constraints for the views.",
+  "description": "Pod that handles basic constraints for the views. Constraints that matchs the parent view, and for any ratio that is provided as the floating point.",
+  "homepage": "https://github.com/Hariprasath-tn/ViewConstraints",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Hariprasath.dp": "hariprasath.dp@zohocorp.com"
+  },
+  "source": {
+    "git": "https://github.com/Hariprasath-tn/ViewConstraints.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "ViewConstraints/Classes/**/*"
+}

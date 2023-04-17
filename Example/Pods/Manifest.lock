@@ -1,0 +1,16 @@
+PODS:
+  - ViewConstraints (0.1.0)
+
+DEPENDENCIES:
+  - ViewConstraints (from `../`)
+
+EXTERNAL SOURCES:
+  ViewConstraints:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ViewConstraints: 562447026c2b858d56b4c7ed845f5553d63c3fc6
+
+PODFILE CHECKSUM: 20422ce6122d5a11f09a68ac16e1309154eb56bb
+
+COCOAPODS: 1.12.0

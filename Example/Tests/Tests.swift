@@ -1,5 +1,4 @@
 import XCTest
-import ViewConstraints
 
 class Tests: XCTestCase {
     

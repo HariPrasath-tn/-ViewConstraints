@@ -1,0 +1,6 @@
+framework module ViewConstraints {
+  umbrella header "ViewConstraints-umbrella.h"
+
+  export *
+  module * { export * }
+}

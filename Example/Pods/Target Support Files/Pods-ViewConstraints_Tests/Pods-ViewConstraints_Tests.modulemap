@@ -1,0 +1,6 @@
+framework module Pods_ViewConstraints_Tests {
+  umbrella header "Pods-ViewConstraints_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

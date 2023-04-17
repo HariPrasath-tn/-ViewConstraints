@@ -7,12 +7,21 @@
 //
 
 import UIKit
+import ViewConstraints
 
 class ViewController: UIViewController {
+    
+    private lazy var tempButton: UIButton = {
+        let btn = UIButton()
+        btn.setTitle("Temp button", for: .normal)
+        btn.backgroundColor = .blue
+        return btn
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.view.addSubview(tempButton)
+        tempButton.fillParent(horizontalPadding: 20, verticalPadding: 40)
     }
 
     override func didReceiveMemoryWarning() {
